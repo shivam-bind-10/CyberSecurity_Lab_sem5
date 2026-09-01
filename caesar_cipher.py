@@ -1,0 +1,26 @@
+def encrypt(text, shift):
+    result = ""
+
+    for char in text:
+        if char.isalpha():
+            base = ord('A') if char.isupper() else ord('a')
+            result += chr((ord(char) - base + shift) % 26 + base)
+        else:
+            result += char
+
+    return result
+
+
+def decrypt(text, shift):
+    return encrypt(text, -shift)
+
+
+message = "Student Result: PASS"
+key = 3pip install cryptography
+
+encrypted = encrypt(message, key)
+decrypted = decrypt(encrypted, key)
+
+print("Original :", message)
+print("Encrypted:", encrypted)
+print("Decrypted:", decrypted)

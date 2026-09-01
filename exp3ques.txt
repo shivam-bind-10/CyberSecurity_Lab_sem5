@@ -1,0 +1,19 @@
+1. Why is Caesar Cipher insecure? 
+ans> Caesar Cipher is insecure because it has only a limited number of possible shift keys, making it easy to break using brute-force attacks.
+
+2. Why is AES called symmetric? 
+ans> AES is called symmetric because the same shared secret key is used for encryption and decryption.
+
+3. Why does RSA use two keys? 
+ans> RSA uses two keys because it is an asymmetric encryption technique. The public key is used for encryption, while the private key is used for decryption.
+
+4. What is plaintext?
+ans> Plaintext is the original readable and understandable data before encryption. 
+5. What is ciphertext? 
+ans> Ciphertext is the encrypted form of plaintext that cannot be easily understood without proper decryption.
+
+6. What happens if the AES secret key is lost?
+ans> If the AES secret key is lost, the encrypted data generally cannot be decrypted, so the original information may become inaccessible.
+
+7. Which technique is suitable for modern secure applications?
+ans> Modern secure applications use strong cryptographic techniques such as AES and RSA, depending on the requirement. AES is commonly used for efficient data encryption, while RSA is used for asymmetric cryptographic operations and secure key-related purposes. Caesar Cipher is not suitable for modern security.
