@@ -16,7 +16,7 @@ def decrypt(text, shift):
 
 
 message = "Student Result: PASS"
-key = 3pip install cryptography
+key = 3
 
 encrypted = encrypt(message, key)
 decrypted = decrypt(encrypted, key)
